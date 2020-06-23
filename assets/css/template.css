@@ -556,9 +556,11 @@ background-color:#36A9E1;
 #form_op3 {
     display:flex;
     flex:1;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    padding:20px;    
+    padding:20px;  
+    padding-left:0;
+    padding-right:0;  
 }
 #form_title_1, 
 #form_title_2 {
@@ -576,4 +578,11 @@ background-color:#36A9E1;
 }
 .form div div {
     background-color:#DC4B3E;
+}
+#describe,
+#input_desc {
+    width:100%;
+}
+#input_desc {
+    height:100px;
 }
