@@ -422,6 +422,9 @@ background-color:#36A9E1;
         padding-left:30px;
         padding-bottom:0.5px;
     }
+    #attachment input {
+        width:100%;
+    }
     
 }
 .container_login {
@@ -588,6 +591,10 @@ background-color:#36A9E1;
     margin-top:20px;
     margin-right:10px;
 }
+#form_title_1 {
+    background-color:#1B6E78;
+    color:#FFFFFF;
+}
 .form div div {
     color:#1B6E78;
     font-weight:bold;
@@ -629,8 +636,4 @@ background-color:#36A9E1;
 }
 .form div input:hover {
     border-bottom:solid #0079C7;
-}
-#form_menu div .active {
-    background-color:#1B6E78;
-    color:#FFFFFF;
 }
