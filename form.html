@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF8"/>
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=0">
+    <title>Portal de Chamados CL</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+    <script type="text/javascript">
+        window.onload = function(){
+          document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display == 'flex') {
+              document.querySelector(".menu nav ul").style.display = 'none';
+          } else {
+              document.querySelector(".menu nav ul").style.display = 'flex'
+          }
+          
+          });
+        };
+        </script>  
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+          <a href=""> <img height="100px" src="assets/images/logo.png"/> </a>
+        </div>
+        <div class="menu">
+          <nav>
+            <div class="menuMobile">
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="">Portal de Serviços</a></li>
+              <li><a href="">Compra e Vendas</a></li>
+              <li><a href="">Últimas Notícias</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+</header>
+<section class="container_form">
+    <div class="form_menu">
+      <div id="form_title_1">Solicitar</div>
+      <div id="form_title_2">Consultar</div>
+    </div>
+    <div class="form_contents"></div>
+    </div>
+</section>
+<section class="container_form">
+  <form id="main_form">
+    <input type="number" name="ticket" value="1"/>
+    <select>
+      <option selected disabled hidden>Selecione o Assunto</option>
+      <option>Financeiro</option>
+      <option>Infraestrutura</option>
+      <option>Jurídico</option>
+      <option>Pessoas</option>
+      <option>Outros</option>
+    </select>
+    <select>
+      <option selected disabled hidden>Selecione a Prioridade</option>
+      <option>Baixa</option>
+      <option>Média</option>
+      <option>Alta</option>
+    </select>
+  <input type="textarea" name="textarea" placeholder="Descrição" required/>
+  <input type="file"/>
+  <input type="submit" name="submit" value="Enviar"/>
+  </form>
+</section>
+
+
+Solicitar
+Ticket auto_increment Área Listbox
+Prioridade Listbox Anexo Href
+Descrição Textbox
+Enviar button
+
+Consultar lista
+Ticket auto_increment Área Listbox Prioridade Listbox Descrição Textbox Status Label Feedback Label selecionar checkbox
+excluir button
+ 
+
+Financeiro
+Infraestrutura
+Jurídico
+Pessoas
+
+
+<footer>
+  <div class="container flexColumn">
+    <div class="footer_menu">
+      <div class="fm_1">
+        <div class="fm_title">Mais Sobre CL Síndicos</div>
+        <div class="fm_body">
+          Para mais informaçoes, acesse: <a href="https://www.clsindicos.com.br/">https://www.clsindicos.com.br/</a>
+        </div>
+      </div>
+      <div class="fm_2">
+        <div class="fm_title">Prestações de Contas do Seu Condomínio</div>
+        <div class="fm_body">
+          Consulte seu boleto, veja o extrato e demais prestações de contas do seu condomínio acessando: <a href="https://www.lellocondominios.com.br/">https://www.lellocondominios.com.br/</a> 
+        </div>
+      </div>
+      <div class="fm_3">
+        <div class="fm_title">Sugestoes Para o Site?</div>
+        <div class="fm_body">
+          Envie um email para snakersandbox@gmail.com
+        </div>
+      </div>
+    </div>
+    <div class="footer_area">
+      <div class="fa">
+        <div class="fa_title">Economia em seu Condomínio</div>
+        <div class="fa_bar"></div>
+        <div class="fa_body">
+        ...
+      </div>
+      </div>
+      <div class="fa">
+        <div class="fa_title">Conteúdos Relacionados</div>
+        <div class="fa_bar"></div>
+        <div class="fa_body">
+        ...
+      </div>
+      </div>
+      <div class="fa">
+        <div class="fa_title">Mapa do Site</div>
+        <div class="fa_bar"></div>
+        <div class="fa_body">
+        ...
+      </div>
+      </div>
+    </div>
+    <div class="footer_copy">
+      Snaker Copyright - Todos os direitos reservados.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
