@@ -439,6 +439,12 @@ background-color:#36A9E1;
     #form_body .container {
         width:450px;
     }
+    #form_body,
+    #form_title {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .container_login {
     display:flex;
