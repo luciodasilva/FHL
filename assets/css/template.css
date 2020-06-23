@@ -418,8 +418,10 @@ background-color:#36A9E1;
     }
     #form_title,
     #form_body {
-        padding:30px;
+        padding-right:30px;
+        padding-left:30px;
     }
+    
 }
 .container_login {
     display:flex;
