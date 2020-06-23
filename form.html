@@ -41,53 +41,54 @@
         </div>
       </div>
 </header>
-<section class="container_form">
+<section id="form_title">
+  <div class="container_form">
     <div class="form_menu">
       <div id="form_title_1">Solicitar</div>
       <div id="form_title_2">Consultar</div>
-    </div>
-    <div class="form_contents"></div>
-    </div>
 </section>
-<section class="container_form">
-  <form id="main_form">
-    <input type="number" name="ticket" value="1"/>
-    <select>
-      <option selected disabled hidden>Selecione o Assunto</option>
-      <option>Financeiro</option>
-      <option>Infraestrutura</option>
-      <option>Jurídico</option>
-      <option>Pessoas</option>
-      <option>Outros</option>
-    </select>
-    <select>
-      <option selected disabled hidden>Selecione a Prioridade</option>
-      <option>Baixa</option>
-      <option>Média</option>
-      <option>Alta</option>
-    </select>
-  <input type="textarea" name="textarea" placeholder="Descrição" required/>
-  <input type="file"/>
-  <input type="submit" name="submit" value="Enviar"/>
+<section id="form_body"> 
+  <form class="container">
+    <div class="main_menu">
+    <div class="form_block first">
+      <div id="ticket"><label for="ticket">Número da Solicitação <input id="input_ticket" type="number" name="ticket" value="1"/></label></div>
+      <div>
+        <label for="priority">Prioridade <select id="priority">
+          <option selected disabled hidden>Selecione a Prioridade</option>
+          <option>Baixa</option>
+          <option>Média</option>
+          <option>Alta</option>
+        </select></label>
+      </div>
+    </div>
+    <div class="form_block">
+      <div>Assunto
+        <select id="subject">
+          <option selected disabled hidden>Selecione o Assunto</option>
+          <option>Financeiro</option>
+          <option>Infraestrutura</option>
+          <option>Jurídico</option>
+          <option>Pessoas</option>
+          <option>Outros</option>
+        </select>   
+      </div>
+    </div>
+    <div class="form_block">
+      <div id="describe">Descrição
+        <input id="input_desc" type="textarea" name="textarea" placeholder="Descrição" required/>
+      </div>
+    </div>
+    <div class="form_block last">
+      <div id="attachment">
+        <input id="input_file" type="file"/>
+      </div>
+      <div id="send_form">
+        <input id="input_send" type="submit" name="submit" value="Enviar"/>
+      </div>
+    </div>
   </form>
 </section>
 
-
-Solicitar
-Ticket auto_increment Área Listbox
-Prioridade Listbox Anexo Href
-Descrição Textbox
-Enviar button
-
-Consultar lista
-Ticket auto_increment Área Listbox Prioridade Listbox Descrição Textbox Status Label Feedback Label selecionar checkbox
-excluir button
- 
-
-Financeiro
-Infraestrutura
-Jurídico
-Pessoas
 
 
 <footer>
