@@ -404,6 +404,8 @@ background-color:#36A9E1;
         display:flex;
         justify-content: center;
         align-items: center;
+        width:330px;
+        padding:0;
     }
     #describe p {
         padding:0;
@@ -421,7 +423,7 @@ background-color:#36A9E1;
     }
     #attachment {
         display:flex;
-        width:350px;
+        width:330px;
         justify-content: center;
         align-items: center;
     }
@@ -429,7 +431,7 @@ background-color:#36A9E1;
         padding:0;
     }
     .main_menu {
-        width:450px;
+        width:100%;
     }
     .main_menu div {
         justify-content: center;
