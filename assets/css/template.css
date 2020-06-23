@@ -388,8 +388,10 @@ background-color:#36A9E1;
         justify-content: center;
         align-items:center;
     }
-    #form_body {
+    .container {
+        display:flex;
         justify-content:center;
+        align-items:center;
     }
 }
 .container_login {
