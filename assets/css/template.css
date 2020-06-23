@@ -382,6 +382,12 @@ background-color:#36A9E1;
         flex-direction:column;
         justify-content:space-around;
     }
+    .class_menu {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
     .form_block {
         flex-direction: column;
         justify-content: center;
@@ -403,6 +409,16 @@ background-color:#36A9E1;
     #describe p {
         padding:0;
         padding-right:5px;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    #form_body {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
     }
 }
 .container_login {
