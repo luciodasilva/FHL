@@ -445,6 +445,9 @@ background-color:#36A9E1;
         justify-content: center;
         align-items: center;
     }
+    #describe p {
+        display:none;
+    }
 }
 .container_login {
     display:flex;
