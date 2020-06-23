@@ -52,16 +52,12 @@
     <div class="main_menu">
     <div class="form_block first">
       <div id="ticket"><label for="ticket">Número da Solicitação <input id="input_ticket" type="number" name="ticket" value="1"/></label></div>
-      <div>
-        <label for="priority">Prioridade <select id="priority">
-          <option selected disabled hidden>Selecione a Prioridade</option>
-          <option>Baixa</option>
-          <option>Média</option>
-          <option>Alta</option>
-        </select></label>
-      </div>
-    </div>
-    <div class="form_block">
+      <label for="priority">Prioridade <select id="priority">
+        <option selected disabled hidden>Selecione a Prioridade</option>
+        <option>Baixa</option>
+        <option>Média</option>
+        <option>Alta</option>
+      </select></label>
       <div>Assunto
         <select id="subject">
           <option selected disabled hidden>Selecione o Assunto</option>
@@ -74,7 +70,7 @@
       </div>
     </div>
     <div class="form_block">
-      <div id="describe">Descrição
+      <div id="describe"><p>Descrição </p>
         <input id="input_desc" type="textarea" name="textarea" placeholder="Descrição" required/>
       </div>
     </div>
@@ -88,9 +84,6 @@
     </div>
   </form>
 </section>
-
-
-
 <footer>
   <div class="container flexColumn">
     <div class="footer_menu">
