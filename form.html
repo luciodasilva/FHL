@@ -50,18 +50,48 @@
   </div>
 </section>
 <section id="form_body">
-  <div class="container">
-    <div id="form_1">
-      <div>...abc...</div>
-      <div>...abc...</div>
-      <div>...abc...</div>
+  <div class="container flexColumn">
+    <div class="form">
+      <div id="form_op1">
+        <div>
+          <div id="ticket"><label for="ticket">Número da Solicitação <input id="input_ticket" type="number" name="ticket" value="1"/></label></div>
+        </div>
+        <div>
+          <label for="subject">Assunto <select id="subject">
+            <option selected disabled hidden>Selecione o Assunto</option>
+            <option>Financeiro</option>
+            <option>Infraestrutura</option>
+            <option>Jurídico</option>
+            <option>Pessoas</option>
+            <option>Outros</option>
+          </select></label>  
+        </div>
+        <div>
+          <label for="priority">Prioridade <select id="priority">
+            <option selected disabled hidden>Selecione a Prioridade</option>
+            <option>Baixa</option>
+            <option>Média</option>
+            <option>Alta</option>
+          </select></label> 
+        </div>
+      </div>
     </div>
-    <div id="form_2">
-      <div>...abc...</div>
+    <div class="form">
+      <div id="form_op2">
+        <div id="describe"><p>Descrição </p>
+          <input id="input_desc" type="textarea" name="textarea" placeholder="Descrição" required/>
+        </div>      
+      </div>
     </div>
-    <div id="form_3">
-      <div>...abc...</div>
-      <div>...abc...</div>
+    <div class="form">
+      <div id="form_op3">
+        <div id="attachment">
+            <input id="input_file" type="file"/>
+        </div>
+        <div id="send_form">
+          <input id="input_send" type="submit" name="submit" value="Enviar"/>
+        </div>
+      </div>
     </div>
   </div>
 </section>

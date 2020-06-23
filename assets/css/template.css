@@ -245,7 +245,6 @@ footer {
 .flexColumn {
     flex-direction:column;
 }
-
 .footer_menu {
     display:flex;
 }
@@ -318,7 +317,7 @@ background-color:#36A9E1;
     background-color:#1B6E78;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 750px) {
 
     #banner {
         height:auto;
@@ -393,6 +392,27 @@ background-color:#36A9E1;
         justify-content:center;
         align-items:center;
     }
+    .form div {
+        flex-direction: column;
+        width:100%;
+    }
+    .form div div label,
+    .form div div select,
+    .form div div input {
+        width:100%;
+    }
+    .form {
+        width:100%;
+    }
+    #input_ticket,
+    #ticket,
+    #describe,
+    #input_desc {
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+
 }
 .container_login {
     display:flex;
@@ -517,11 +537,43 @@ background-color:#36A9E1;
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100px;
-    background-color: #727272;
+}
+#form_body {
+    padding-top:20px;
+    padding-bottom:20px;
 }
 #form_menu {
     display:flex;
     justify-content:flex-start;
     align-items:center;
+}
+.form {
+    display:flex;
+    align-items:center;
+}
+#form_op1,
+#form_op2,
+#form_op3 {
+    display:flex;
+    flex:1;
+    justify-content:space-around;
+    align-items: center;
+    padding:20px;    
+}
+#form_title_1, 
+#form_title_2 {
+    background-color:#1B6E78;
+    color:#FFFFFF;
+    padding:15px;
+    width:130px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:20px;
+    margin-right:1px;
+}
+.form div div {
+    background-color:#DC4B3E;
 }
