@@ -392,7 +392,6 @@ background-color:#36A9E1;
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        width:360px;
     }
     .form_block * {
         padding:20px;
