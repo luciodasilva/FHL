@@ -392,14 +392,14 @@ background-color:#36A9E1;
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        width:420px;
+        width:360px;
     }
     .form_block * {
         padding:20px;
     }
     #input_desc,
     #describe {
-        width:420px;
+        width:360px;
     }
     #describe {
         display:flex;
@@ -419,6 +419,25 @@ background-color:#36A9E1;
         flex-direction: column;
         justify-content: center;
         align-items:center;
+    }
+    #attachment {
+        display:flex;
+        width:350px;
+        justify-content: center;
+        align-items: center;
+    }
+    #input_file {
+        padding:0;
+    }
+    .main_menu {
+        width:450px;
+    }
+    .main_menu div {
+        justify-content: center;
+        align-items: center;
+    }
+    #form_body .container {
+        width:450px;
     }
 }
 .container_login {
