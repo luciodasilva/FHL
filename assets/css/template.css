@@ -382,7 +382,7 @@ background-color:#36A9E1;
         flex-direction:column;
         justify-content:space-around;
     }
-    .class_menu {
+    .menu {
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -396,25 +396,18 @@ background-color:#36A9E1;
     .form_block * {
         padding:20px;
     }
-    #input_desc,
-    #describe {
-        width:100%;
-    }
     #describe {
         display:flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width:330px;
         padding:0;
-    }
-    #describe p {
-        padding:0;
-        padding-right:5px;
     }
     .container {
         flex-direction: column;
         justify-content: center;
         align-items:center;
+        width:100%;
     }
     #form_body {
         flex-direction: column;
@@ -423,22 +416,15 @@ background-color:#36A9E1;
     }
     #attachment {
         display:flex;
-        width:300px;
         justify-content: center;
         align-items: center;
     }
     #input_file {
         padding:0;
     }
-    .main_menu {
-        width:100%;
-    }
     .main_menu div {
         justify-content: center;
         align-items: center;
-    }
-    #form_body .container {
-        width:100%;
     }
     #form_body,
     #form_title {
@@ -663,7 +649,7 @@ background-color:#36A9E1;
 }
 #input_desc {
     height:100px;
-    width:810px;
+    width:100%
     border-width:1px;
     border:solid 0.5px #5c5c5cb7;
     font-size:17px;
