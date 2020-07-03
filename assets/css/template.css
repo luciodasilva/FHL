@@ -649,8 +649,23 @@ background-color:#36A9E1;
 .form div input:hover {
     border-bottom:solid #0079C7;
 }
-
 #input_ticket {
     width:130px;
     padding-right:0;
 }
+#table_body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.table {
+    display:flex;
+    justify-content:space-around;
+    background-color: #1B6E78;
+    height:100px;
+}
+#table {
+    width:100%;
+    background-color: #727272;
+}
+
